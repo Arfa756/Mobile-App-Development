@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FurnitureApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/TextColor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemSelected">@color/TextColor</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="parentTextview">
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="TextView_10sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="TextView_12sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="TextView_14sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="TextView_16sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="ThemePopUpMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/circular_std_book</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="popupMenuBackground">@drawable/card_bg</item>
+    </style>
+
+    <style name="TextView_18sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="TextView_20sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="TextView_22sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+    </style>
+
+    <style name="TextView_24sdp" parent="parentTextview">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ImageStyle_Corners_Cut">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="Image_Header">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ImageStyle_Bottom_Corners">
+        <item name="cornerSizeBottomLeft">10%</item>
+        <item name="cornerSizeBottomRight">10%</item>
+    </style>
+
+</resources>

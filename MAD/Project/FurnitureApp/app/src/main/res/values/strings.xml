@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FurnitureApp</string>
+
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username_or_email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="stay_logged_in">Stay logged in</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="login_as_admin">Login As Admin</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="signing">Signing…</string>
+    <string name="furniture_image">Furniture Image</string>
+    <string name="furniture_title">Furniture Title</string>
+    <string name="enter_furniture_title">Enter Title</string>
+    <string name="furniture_description">Furniture Description</string>
+    <string name="enter_description">Enter Description here…</string>
+    <string name="submit">Submit</string>
+    <string name="buy">Buy</string>
+    <string name="logout">Logout</string>
+    <string name="logout_app">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="admin_screen_title">Admin Screen</string>
+    <string name="user_screen_title">User Screen</string>
+    <string name="furniture_detail">Furniture Detail</string>
+    <string name="uploading">uploading…</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="enter_card_number">Enter 16 digits card number</string>
+    <string name="expire_month">Exp Month</string>
+    <string name="expire_year">Exp Year</string>
+    <string name="enter_exp_month">Enter exp month</string>
+    <string name="enter_exp_year">Enter exp year</string>
+    <string name="cvc">CVC</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter address…</string>
+    <string name="card_number">Card Number</string>
+
+</resources>
